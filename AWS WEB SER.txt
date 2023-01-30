@@ -1,0 +1,40 @@
+============================
+
+All WebServers:
+
+1. IIS---Web Server:
+
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+
+---Win Ser---2012/2016/2019/2022
+
+
+2.Redhat/A-L(ec2-user)------Httpd Webserver
+
+$sudo yum udpate -y
+$sudo yum install httpd* -y
+$sudo systemctl start httpd
+$sudo systemctl status httpd
+$sudo systemctl stop httpd
+
+3.Ubuntu(ubuntu)-------Apache2 WebServer
+$sudo apt-get update -y
+$sudo apt-get install apache2 -y
+$sudo systemctl start apache2
+$sudo systemctl status apache2
+$sudo systemctl stop apache2
+
+4.Debin(admin)-----Nginx WebServer
+$sudo apt-get update -y
+$sudo apt-get install nginx -y
+$sudo systemctl start nginx
+$sudo systemctl status nginx
+$sudo systemctl stop nginx
+
+======================================================================
+linux - bastion method - password 
+
+server - bastion - terminal open - above commands - server
+networking -  http protocol - copy ip adres check in new server - working or not
+networking - outbond - custom - RDP - add - 
+search - mstsc - remote desktop - open paste public IP address & view graphical window of servers!

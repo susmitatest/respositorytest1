@@ -1,0 +1,28 @@
+======================================================================
+Azure-Devops:
+1.Resorce Group
+2.Virtual Machine
+3.VM Web Servers( In linux--Apache2/Httpd/Nginx) & (In Windows server--IIS)
+4.XRDP Installation in Ubuntu/Debin
+5.VMSS(Linux --VMSS & Windows-VMSS)
+6.Stroage Account
+7.Virtual Networks
+8.Active Directory Users and Groups
+9.Repositories-----------Github/DockerHub/Bitbucket
+10.App Service
+11.Function Services
+12.DataBases--(SQL/MYSQL/POSTGRESQL)
+13.Azure CLI
+14.Docker 
+15.ACR
+16.AKS
+17.Terraform
+18.Ansible
+19.Jenkins
+20.Azure Devops Organization
+21.Jira
+22.Postman
+23.ADF
+24.Databricks & Synaps workpace 
+25.Power BI Desktop
+===========================================================================
